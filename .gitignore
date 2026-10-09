@@ -1,0 +1,18 @@
+# Sensitive keys & credentials
+.env
+serviceAccountKey.json
+google-services.json
+*.key
+*.pem
+
+# Dependencies & Build artifacts
+node_modules/
+.pio/
+.vscode/
+build/
+*.bin
+*.elf
+
+# Operating System files
+.DS_Store
+Thumbs.db
